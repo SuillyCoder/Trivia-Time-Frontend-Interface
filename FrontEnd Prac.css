@@ -1,0 +1,157 @@
+body{
+    background-color: #142048;
+}
+
+/* MENU BAR CSS SPACE */
+
+.container{
+    margin: auto;
+    margin-top: 150px;
+    width: 1000px;
+    height: 1200px;
+    margin-bottom: 100px;
+    background-color: #EAF2F5 ;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+.menuBar{
+    margin: auto;
+    width: 1000px;
+    height: 100px;
+    background-color: #86204e;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display:flex;
+    align-items: center;
+}
+
+.optionBox{
+    position: relative;
+    width: 175px;
+    height: 45px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.green{background-color: #43D545 ;}
+.yellow{background-color: #F0CE40  ;}
+.red{background-color: #F15037  ;}
+
+.icon{
+    margin:auto;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+.fullScreen img{
+    width: 35px;
+    height: 35px
+}
+
+/* CONTENT SPACE CSS SPACE */
+
+.contentSpace{
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    background-color: #EAF2F5 ;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.triviaTime {
+    margin:auto;
+    width: 770px;
+    height: 130px;
+    text-align:center;
+    font-size: 120px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #1F3037 ;
+    
+}
+
+.triviaBox {
+    margin:auto;
+    height: 250px;
+    width: 750px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+}
+
+.triviaOne{background-color: #5A0934;}
+.triviaTwo{background-color: #003045; }
+.triviaThree{background-color: #14454D ;}
+
+.reducedBox{
+    margin:auto;
+    width: 720px;
+    height: 220px;
+}
+.didyouknow{
+    margin:auto;
+    height: 60px;
+    width: 720px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: #EAF2F5;
+
+}
+.infoBox{
+    margin:auto;
+    height: 155px;
+    width: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: space space-between
+}
+.center{text-align: right}
+
+.picture{
+    position: relative;
+    height: 155px;
+    width: 200px;
+    display: flex;
+}
+
+.description{
+    height: 155px;
+    width: 520px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    color: #EAF2F5;
+    line-height: 1.3;
+}
+
+.picture img{
+    margin:auto;
+    width: 150px;
+    height: 150px;
+}
